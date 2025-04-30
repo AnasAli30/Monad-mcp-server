@@ -16,8 +16,8 @@ const server = new McpServer({
     version: "0.1.0",
     capabilities: [
          "transfer-mon",
-        "get-wallet-address",
-        "get-mon-balance",
+      "get-wallet-address",
+      "get-mon-balance",
         "disperse-tokens",
         "disperse-mon",
         "compile-contract",
@@ -89,7 +89,7 @@ const server = new McpServer({
         }
     }
 );
-
+  
 // Add contract address and ABI at the top
 const DISPERSE_CONTRACT_ADDRESS = "0xb40682063d8E1E37Ae365D0f7C28292fEc63e938";
 const DISPERSE_ABI = [
